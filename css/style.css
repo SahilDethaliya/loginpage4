@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;700&display=swap');
+
+/* exo-2-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/exo-2-v21-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/exo-2-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v21-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/exo-2-v21-latin-300.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/exo-2-v21-latin-300.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/exo-2-v21-latin-300.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/exo-2-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v21-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/exo-2-v21-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/exo-2-v21-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/exo-2-v21-latin-regular.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/exo-2-v21-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/exo-2-v21-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v21-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/exo-2-v21-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/exo-2-v21-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/exo-2-v21-latin-500.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/exo-2-v21-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/exo-2-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v21-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/exo-2-v21-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/exo-2-v21-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/exo-2-v21-latin-700.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCE5F2;
+}
+a{
+    text-decoration: none;            ;
+}
+:root{
+    --theme_color: #9574CD;
+    --bg_color: #DCE5F2;
+}
+.frm_main{
+    width: 300px;
+    border-radius: 15px;
+    background-color: var(--bg_color);
+    box-shadow:  10px 10px 20px #8f959d,
+    -10px -10px 20px #ffffff;
+    padding: 20px 30px;
+}
+.frm_title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.frm_title p{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.frm_social_icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    
+}
+.frm_social_icon a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: var(--theme_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg_color);
+    box-shadow:  8px 8px 16px #c4ccd7,
+             -8px -8px 16px #f4feff;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.frm_input input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--bg_color);
+    box-shadow: inset 7px 7px 14px #c8d0dc,
+            inset -7px -7px 14px #f0faff;
+    border: 3px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+input:focus{
+    border: 3px solid #9574CD;
+    outline: none;
+}
+.icon{
+    position: relative;
+}
+.icon i{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    font-size: 12px;
+}
+.frm_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.frm_btn button{
+    border-color: transparent;
+    background-color: var(--theme_color);
+    border-radius: 10px;
+    box-shadow:  8px 8px 16px #b2b9c4,
+    -8px -8px 16px #ffffff;
+    cursor: pointer;
+    &:hover{
+        background-color: var(--bg_color);
+        border-color: var(--theme_color);
+        a{
+            color: var(--theme_color);
+        }
+    }
+}
+.frm_btn button a {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 25px;
+    display: block;
+}
+.frm_disc{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    a{
+        color: var(--theme_color);
+        transition: 0.3s;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.frm_password{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    a{
+        color: var(--theme_color);
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
